@@ -1,8 +1,9 @@
-JavaScript Client-Side Vertcoin Wallet Generator
+JavaScript Client-Side SperoCoin Wallet Generator
 
 GPG key for validation: http://pgp.mit.edu/pks/lookup?op=vindex&search=0xFD948CCC1EAB2FB5
 
 A fork of the liteaddress.org project located at:
+https://github.com/vertcoin/paperwallet
 https://github.com/litecoin-project/liteaddress.org
 
 Provides an all-in-one HTML document with embedded JavaScript/Css/Images. The JavaScript is readable not minified and contains no XMLHttpRequest's (no AJAX). The benefit of this technique is you can load the JavaScript locally and trust that the JavaScript did not change after being loaded. 
@@ -25,7 +26,7 @@ END USER NOTES:
 
 Notice of Copyrights and Licenses:
 ---------------------------------------
-The Vertoin paper wallet project, software and embedded resources are copyright The Vertcoin developers.
+The Vertoin paper wallet project, software and embedded resources are copyright The SperoCoin developers.
 
 Portions of the all-in-one HTML document contain JavaScript codes that are the copyrights of others. The individual copyrights are included throughout the document along with their licenses. Included JavaScript libraries are separated with HTML script tags.
 
@@ -42,6 +43,7 @@ window.QRCode			MIT License
 window.Bitcoin			MIT License
 
 This software is available under The MIT License (MIT)
+Copyright (c) 2017 The SperoCoin developers
 Copyright (c) 2014 The Vertcoin developers
 Copyright (c) 2012-2013 liteaddress.org
 Copyright (c) 2011-2013 bitaddress.org
