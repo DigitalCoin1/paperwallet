@@ -4677,7 +4677,7 @@ Bitcoin.Address = function (bytes) {
 	this.version = Bitcoin.Address.networkVersion;
 };
 
-Bitcoin.Address.networkVersion = 0x3F; // SperoCoin pubkey_address prefix is 71 decimal
+Bitcoin.Address.networkVersion = 0x3F; // SperoCoin pubkey_address prefix is 63 decimal
 
 /**
 * Serialize this object as a standard Bitcoin address.
@@ -5052,7 +5052,7 @@ Bitcoin.ECKey = (function () {
 		this.compressed = (this.compressed == undefined) ? !!ECKey.compressByDefault : this.compressed;
 	};
 
-	ECKey.privateKeyPrefix = 0xBF; // SperoCoin privkey prefix is 199 decimal (71+128)
+	ECKey.privateKeyPrefix = 0xBF; // SperoCoin privkey prefix is 191 decimal (63+128)
 
 	/**
 	* Whether public keys should be returned compressed by default.
